@@ -19,8 +19,8 @@ function renderLicenseBadge(license) {
     case 'BSD 3-Clause New or Revised License':
       badge = `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
       break;
-    case 'BoostSoftwareLicense 1.0':
-      badge = `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
+    case 'BoostSoftware License 1.0':
+      badge = `[![License](https://img.shields.io/badge/License-BoostSoftware-blue.svg)](https://www.boost.org/LICENSE_1_0.txt)`;
       break;
     case 'Creative Commons Zero V1.0 Universal':
       badge = `[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)`;
@@ -67,8 +67,8 @@ function renderLicenseLink(license) {
     case 'BSD 3-Clause New or Revised License':
       licenseLink = 'https://opensource.org/licenses/BSD-3-Clause';
       break;
-    case 'BoostSoftwareLicense 1.0':
-      licenseLink = 'https://opensource.org/licenses/BSD-3-Clause';
+    case 'BoostSoftware License 1.0':
+      licenseLink = 'https://www.boost.org/LICENSE_1_0.txt';
       break;
     case 'Creative Commons Zero V1.0 Universal':
       licenseLink = 'http://creativecommons.org/publicdomain/zero/1.0/';
@@ -100,8 +100,12 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
+  if(license != 'None') {
   return `## License
   Licensed under the [${license}](${renderLicenseLink(license)}) license.`
+  } else {
+    return ''
+  }
 }
 
 
@@ -122,7 +126,7 @@ function generateMarkdown(data) {
   - [Credits](#credits)
   - [Tests](#tests)
   - [Questions](#questions)
-  - [License](#license)
+  ${data.license != 'None' ? '- [License](#license)' : ''}
 
   ## Installation
 
