@@ -5,18 +5,18 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 // Array of license for list used in questions array
 const licenses = [
-    'Apache License 2.0', 
-    'GNU General Public License v3.0', 
-    'MIT License', 
-    'BSD 2-Clause Simplified License', 
-    'BSD 3-Clause New or Revised License', 
-    'BoostSoftware License 1.0', 
+    'Apache 2.0', 
+    'GNU General Public v3.0', 
+    'MIT', 
+    'BSD 2-Clause Simplified', 
+    'BSD 3-Clause New or Revised', 
+    'BoostSoftware 1.0', 
     'Creative Commons Zero V1.0 Universal', 
-    'Eclispse Public License 2.0', 
-    'GNU Affero General Public License v3.0', 
-    'GNU General Public License v2.0', 
-    'GNU Lesser General Public License v2.1', 
-    'Mozilla Public License 2.0', 
+    'Eclispse Public 2.0', 
+    'GNU Affero General Public v3.0', 
+    'GNU General Public v2.0', 
+    'GNU Lesser General Public v2.1', 
+    'Mozilla Public 2.0', 
     'The Unlicense', 
     'None'
 ]
@@ -36,7 +36,7 @@ const questions = [
 
 // Function to write README file
 function writeToFile(data) {
-    const filename = `README.md`;
+    const filename = 'README.md';
     fs.writeFile(filename, generateMarkdown(data), {flag: 'w+'},(err) =>
     err ? console.error(err) : console.log('Your readme file has been generated.'))
 }
