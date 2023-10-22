@@ -30,6 +30,7 @@ function writeToFile(data) {
 function init() {
     inquirer.prompt(questions)
     .then((answers) => {
+        console.log(answers.license)
         writeToFile(answers)
     });
 
