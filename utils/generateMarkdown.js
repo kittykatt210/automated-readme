@@ -35,6 +35,7 @@ function renderLicenseBadge(license) {
       badge = `[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)`;
       break;
     case 'GNU Lesser General Public License v2.1':
+      badge = `[![License: GPL v2.1](https://img.shields.io/badge/License-LGPL_v2.1-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)`;
       break;
     case 'Mozilla Public License 2.0':
       badge = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
@@ -42,14 +43,13 @@ function renderLicenseBadge(license) {
     case 'The Unlicense':
       badge = `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`;
       break;
-    default:
-      badge = '';
+    case 'None':
+      badge = ''
   }
   return badge
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Function that returns the license link
 function renderLicenseLink(license) {
   switch(license) {
     case 'Apache License 2.0':
@@ -83,6 +83,7 @@ function renderLicenseLink(license) {
       licenseLink = 'https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html';
       break;
     case 'GNU Lesser General Public License v2.1':
+      licenseLink = 'https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html'
       break;
     case 'Mozilla Public License 2.0':
       licenseLink = 'https://opensource.org/licenses/MPL-2.0';
@@ -90,22 +91,21 @@ function renderLicenseLink(license) {
     case 'The Unlicense':
       licenseLink = 'http://unlicense.org/';
       break;
-    default:
+    case 'None':
       licenseLink = '';
   }
   return licenseLink;
 }
 
-
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
+
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## Badges
   ${renderLicenseBadge(data.license)}
 
   ## Description
@@ -139,11 +139,9 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  ${data.github}
-  ${data.email}
+  If you would like to know more about this project or to view other projects I have worked on please visit me at [${data.github}](https://github.com/${data.github}).
 
-  ## License
-  ${renderLicenseLink(data.license)}
+  If you have any questions about this project that aren't answered in the github repository, I can be reached at ${data.email}.
 `;
 }
 
