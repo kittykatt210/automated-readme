@@ -1,8 +1,11 @@
-# trying-this-again
+# myproject
+
+  ## Badges
+  undefined;
 
   ## Description
 
-  To see if this works.
+  it's a project
 
   ## Table of Contents
 
@@ -15,15 +18,15 @@
 
   ## Installation
 
-  Go to the website
+  go to the website
 
   ## Usage
 
-  Use it however you want to
+  use it however you want to
 
   ## Credits
 
-  
+  none
 
   ## Tests
 
@@ -32,7 +35,7 @@
   ## Questions
 
   kittykatt210
-  keperry30@icloud.com
+  me@me.com
 
   ## License
 
