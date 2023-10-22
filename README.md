@@ -38,4 +38,4 @@
   If you have any questions about this project that aren't answered in the github repository, I can be reached at keperry30@icloud.com.
 
   ## License
-  Licensed under the [MIT License](https://opensource.org/licenses/MIT) license.
+  Licensed under the [MIT](https://opensource.org/licenses/MIT) license.
