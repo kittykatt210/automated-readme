@@ -38,7 +38,7 @@ const questions = [
 function writeToFile(data) {
     const filename = 'README.md';
     fs.writeFile(filename, generateMarkdown(data), {flag: 'w+'},(err) =>
-    err ? console.error(err) : console.log('Your readme file has been generated.'))
+    err ? console.error(err) : console.log(`Your README.md for ${data.title} has been generated.`))
 }
 
 // Function to initialize app

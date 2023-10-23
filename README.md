@@ -1,4 +1,4 @@
-# readme-generator
+# automated-readme
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -25,7 +25,7 @@
 
   ## Credits
 
-  I collaborated with Anthony Strickland for this project. https://github.com/AnthonyStrickland?tab=repositories
+  I collaborated with Anthony Strickland for this project.https://github.com/AnthonyStrickland?tab=repositorie
 
   ## Tests
 
