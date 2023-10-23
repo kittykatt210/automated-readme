@@ -30,7 +30,7 @@ I learned a lot during this project. Specifically, I learned that I really enjoy
 	- If node.js is installed you will see something like what is pictured below:
 	![Node Version](./assets/images/Node_Version.png)
 	If you do not get a result similar to what is pictured above then you don't have node.js installed. To install it simply go to [Node.js](https://nodejs.org/en).
-- Once node is installed on your computer, fromyour project folder, run the following commands in the command line:
+- Once node is installed on your computer, from your project folder, run the following commands in the command line:
 	- `npm init -y` This will initialize the node package and accept the defaults.
 	- `npm i inquirer@8.2.4` This will install the inquirer package/dependencies, specifically version 8.2.4.
 	- `npm i fs` This will install the fs package used to read and write to files.
