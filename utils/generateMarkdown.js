@@ -98,9 +98,10 @@ function renderLicenseLink(license) {
 }
 
 // Function that returns the license section of README
-function renderLicenseSection(license) {
+function renderLicenseSection(name,license) {
   if(license != 'None') {
   return `## License
+  Copyright (c) ${name}. All rights reserved.  
   Licensed under the [${license}](${renderLicenseLink(license)}) license.`
   } else {
     return ''
@@ -148,7 +149,7 @@ function generateMarkdown(data) {
 
   If you have any questions about this project that aren't answered in the github repository, I can be reached at ${data.email}.
 
-  ${renderLicenseSection(data.license)}
+  ${renderLicenseSection(data.user, data.license)}
 `;
 }
 

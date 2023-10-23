@@ -23,6 +23,7 @@ const licenses = [
 
 // Array of questions for user input
 const questions = [
+    {type: 'input', message: 'Hello and welcome to the README.md generator. Please enter your full name:', name: 'user', validate: (value) => {if(value) {return true} else { return 'Please enter your full name'}}},
     {type: 'input', message: 'Enter the title of your project:', name: 'title', validate: (value) => {if(value) {return true} else { return 'Please enter a title for your project'}}},
     {type: 'input', message: 'Enter a description of your project (the what, why, and how):', name: 'description', validate: (value) => {if(value) {return true} else { return 'Please enter a description for your project'}}},
     {type: 'input', message: 'Enter the installation instructions:', name: 'install', validate: (value) => {if(value) {return true} else { return 'Please enter install instructions for your project'}}},
