@@ -1,16 +1,16 @@
 {
-  "name": "static-site",
+  "name": "automated-readme-generator",
   "version": "1.0.0",
-  "description": "## Description",
+  "description": "## Create an automated README.md file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Kathryn Perry",
+  "license": "MIT",
   "dependencies": {
     "fs": "^0.0.1-security",
     "inquirer": "8.2.4"
   },
-  "keywords": []
+  "keywords": ["readme", "automated readme", "generated readme"]
 }
