@@ -52,3 +52,6 @@ function init() {
 
 // Function call to initialize app
 init();
+
+
+module.exports = automatedReadmeGenerator
