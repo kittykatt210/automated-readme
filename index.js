@@ -29,7 +29,7 @@ const questions = [
     {type: 'input', message: 'Enter usage instructions:', name: 'usage', validate: (value) => {if(value) {return true} else { return 'Please enter usage intructions for your project'}}},
     {type: 'input', message: 'Enter any contributors, to include tutorial websites:', name: 'credits'},
     {type: 'input', message: 'Enter any test instructions:', name: 'tests'},
-    {type: 'list', message: 'Select the license used for your project:', name: 'license', choices: licenses},
+    {type: 'list', message: 'Select the license used for your project:', name: 'license', choices: licenses, default: 'None'},
     {type: 'input', message: 'Enter your github username:', name: 'github', validate: (value) => {if(value) {return true} else { return 'Please enter your github username'}}},
     {type: 'input', message: 'Enter your email address:', name: 'email', validate: (value) => {if(value) {return true} else { return 'Please enter your email'}}}
 ];
