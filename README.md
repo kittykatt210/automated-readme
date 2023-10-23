@@ -1,8 +1,8 @@
 # automated-readme
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
- ![Static Badge](https://img.shields.io/badge/JavaScript-323330?logo=javascript&logoColor=F7DF1E)
- ![Static Badge](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ [![Static Badge](https://img.shields.io/badge/JavaScript-323330?logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+ [![Static Badge](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white)](https://nodejs.org/en)
 
 
 
