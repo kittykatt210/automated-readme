@@ -25,11 +25,11 @@ const licenses = [
 const questions = [
     {type: 'input', message: 'Hello and welcome to the README.md generator. Please enter your full name:', name: 'user', validate: (value) => {if(value) {return true} else { return 'Please enter your full name'}}},
     {type: 'input', message: 'Enter the title of your project:', name: 'title', validate: (value) => {if(value) {return true} else { return 'Please enter a title for your project'}}},
-    {type: 'input', message: 'Enter a description of your project (the what, why, and how):', name: 'description', validate: (value) => {if(value) {return true} else { return 'Please enter a description for your project'}}},
-    {type: 'input', message: 'Enter the installation instructions:', name: 'install', validate: (value) => {if(value) {return true} else { return 'Please enter install instructions for your project'}}},
-    {type: 'input', message: 'Enter usage instructions:', name: 'usage', validate: (value) => {if(value) {return true} else { return 'Please enter usage intructions for your project'}}},
-    {type: 'input', message: 'Enter any contributors, to include tutorial websites:', name: 'credits'},
-    {type: 'input', message: 'Enter any test instructions:', name: 'tests'},
+    {type: 'editor', message: 'Enter a description of your project (the what, why, and how):', name: 'description', validate: (value) => {if(value) {return true} else { return 'Please enter a description for your project'}}},
+    {type: 'editor', message: 'Enter the installation instructions:', name: 'install', validate: (value) => {if(value) {return true} else { return 'Please enter install instructions for your project'}}},
+    {type: 'editor', message: 'Enter usage instructions:', name: 'usage', validate: (value) => {if(value) {return true} else { return 'Please enter usage intructions for your project'}}},
+    {type: 'editor', message: 'Enter any contributors, to include tutorial websites:', name: 'credits'},
+    {type: 'editor', message: 'Enter any test instructions:', name: 'tests'},
     {type: 'list', message: 'Select the license used for your project:', name: 'license', choices: licenses, default: 'None'},
     {type: 'input', message: 'Enter your github username:', name: 'github', validate: (value) => {if(value) {return true} else { return 'Please enter your github username'}}},
     {type: 'input', message: 'Enter your email address:', name: 'email', validate: (value) => {if(value) {return true} else { return 'Please enter your email'}}}
