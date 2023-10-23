@@ -25,7 +25,7 @@
 
   ## Credits
 
-  I collaborated with Anthony Strickland for this project.https://github.com/AnthonyStrickland?tab=repositorie
+  I collaborated with Anthony Strickland for this project. https://github.com/AnthonyStrickland?tab=repositories
 
   ## Tests
 
