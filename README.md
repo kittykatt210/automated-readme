@@ -61,7 +61,7 @@ Once you have finished entering all of your information, and there are no errors
 ![File Generated](./assets/images/04_FinalScreen.png) 
 
 You can also view a demostration video at the following link:  
-https://drive.google.com/file/d/142-x_emGQKmQIbd16rhMQWhbKncBHQL2/view
+https://drive.google.com/file/d/1eKh6cCxdjLhLUcBPFVDRdf6ox_GUH1-s/view
 
 
   ## Credits
