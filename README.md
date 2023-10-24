@@ -26,6 +26,7 @@ I learned a lot during this project. Specifically, I learned that I really enjoy
 
   To use this automated README.md program you must first do a couple of things.
 
+- First, you'll want to copy this repository to your working space by using `git clone` so that you have it on your computer.
 - Make sure your computer has node.js You can check by typing in the following in your command line: `node --version`
 	- If node.js is installed you will see something like what is pictured below:
 	![Node Version](./assets/images/Node_Version.png)
@@ -35,7 +36,7 @@ I learned a lot during this project. Specifically, I learned that I really enjoy
 	- `npm i inquirer@8.2.4` This will install the inquirer package/dependencies, specifically version 8.2.4.
 	- `npm i fs` This will install the fs package used to read and write to files.
 
-After those steps are completed you are ready to begin using the automated README.md generator.
+After those steps are completed you are ready to begin using the automated README.md generator by running `node index.js`.
 
 
   ## Usage
