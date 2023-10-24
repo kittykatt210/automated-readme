@@ -63,7 +63,7 @@ Once you have finished entering all of your information, and there are no errors
 
   ## Credits
 
-  Anthony Strickland contributed to this project. You can view more of his work at his [GitHub Repository](https://github.com/AnthonyStrickland?tab=repositories).
+Anthony Strickland contributed to this project. You can view more of his work at his [GitHub Repository](https://github.com/AnthonyStrickland?tab=repositories).
 
 I also used the following websites to garner more information on various topics.  
 
@@ -95,6 +95,10 @@ The following websites were used for FS:
 https://www.geeksforgeeks.org/node-js-file-system/?ref=lbp
 
 https://www.w3schools.com/nodejs/nodejs_filesystem.asp
+
+The following website was used to generate the badges:
+
+https://shields.io/
 
 
   ## Tests
