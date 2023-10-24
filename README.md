@@ -60,6 +60,9 @@ Once your editor opens you are able to type your information in. Because you are
 Once you have finished entering all of your information, and there are no errors, you will receive output statement that your README.md file as been generated as seen below:
 ![File Generated](./assets/images/04_FinalScreen.png) 
 
+You can also view a demostration video at the following link:  
+https://drive.google.com/file/d/142-x_emGQKmQIbd16rhMQWhbKncBHQL2/view
+
 
   ## Credits
 
